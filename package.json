@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "chai aur backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "backend"
+    "dev": "nodemon src/index.js"
   },
   "author": "satyam",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
 }
