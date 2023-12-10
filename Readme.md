@@ -1,0 +1,1 @@
+<!-- gitignore file should be in root folder -->

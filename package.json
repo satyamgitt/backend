@@ -1,0 +1,11 @@
+{
+  "name": "backend1",
+  "version": "1.0.0",
+  "description": "chai aur backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "backend"
+  },
+  "author": "satyam",
+  "license": "ISC"
+}
