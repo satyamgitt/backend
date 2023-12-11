@@ -1,0 +1,2 @@
+// db name written here in constants file because if in future need to change this then from here i can change and this is not system specific , this just name of application database
+export const DB_NAME = "SatyamYoutube"
