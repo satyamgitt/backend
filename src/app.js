@@ -4,7 +4,7 @@ import cors from 'cors'
 
 
 //   we configure cookieParser and cors after app made
-// cookieParser is used for accessing users browser cookies from server and can also set that cookies and can perform crud operation on cookies
+// cookieParser is used for accessing user's browser cookies from server and can also set that cookies and can perform CRUD operation on cookies
 
 const app = express();
 // "use" methods comes for all configration and midlewares , setting cors(), can set cors() configration in object formate , CORS_ORIGIN variables should be allowed first
@@ -13,8 +13,8 @@ app.use(cors({
     credentials: true
 }))
 
-// ! In app data will come from different places exp -> url , json , body(form) , direct form ,json form . json doesn't mean unlimited json data there should be limit . will not crash server
-// so configrations and settings
+// ! In app data will come from different places exp -> url , json , body(form) , direct form ,json form . json doesn't mean unlimited json data there should be limit .we will not crash server
+// so configrations and do settings
 
 // form data configuration
 app.use(express.json({ limit: "16kb" }))
